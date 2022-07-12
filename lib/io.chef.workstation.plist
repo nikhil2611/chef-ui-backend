@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+
+    <key>Label</key>
+    <string>com.journal.today.plist</string>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/ngupta/chef-ui-backend/stderr.log</string>
+
+    <key>StandardOutPath</key>
+    <string>/Users/ngupta/chef-ui-backend/stdout.log</string>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/ngupta/chef-ui-backend</string>
+
+    <key>ProgramArguments</key>
+    <array>
+    <string>/bin/zsh</string>
+    <string>-c</string>
+    <string>/Users/ngupta/chef-ui-backend/hello.sh</string> 
+    </array>
+
+  </dict>
+</plist>
