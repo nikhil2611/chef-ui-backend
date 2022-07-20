@@ -9,6 +9,9 @@
     <key>RunAtLoad</key>
     <true/>
 
+    <key>StartInterval</key>
+    <integer>20</integer>
+
     <key>StandardErrorPath</key>
     <string>/Users/ngupta/chef-ui-backend/stderr.log</string>
 
@@ -20,9 +23,9 @@
 
     <key>ProgramArguments</key>
     <array>
-    <string>/bin/zsh</string>
-    <string>-c</string>
-    <string>/Users/ngupta/chef-ui-backend/hello.sh</string> 
+      <string>/usr/local/bin/puma</string>
+      <string>-C</string>
+      <string>/Users/ngupta/chef-ui-backend/config/puma.rb</string>
     </array>
 
   </dict>
